@@ -6,11 +6,12 @@ void setup()
 {
   pinMode(LED_BUILTIN, OUTPUT);
 }
-
+                                            //HOLAAA PABLO TODO BIEN??
+                                             //ONDAS?
 void loop() 
 {
   digitalWrite(LED_BUILTIN, HIGH);
-  delay(100);
+  delay(1000);
   digitalWrite(LED_BUILTIN, LOW);
-  delay(100);
+  delay(1000);
 }
